@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load Model
-model = joblib.load("customer_churn.pkl")
+model = joblib.load("Customer_Churn.pkl")
 
 st.set_page_config(
     page_title="Customer Churn Prediction",
